@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: aqua;
+}
+.container {
+    width: 40%;
+    min-width: 500px;
+    min-height: 100px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 20px;
+}
+.todo-list {
+    width: 40%;
+    margin: 20px auto 20px;
+    padding: 20px 20px 20px;
+    border-radius: 20px;
+}
+.todo-list h2{
+    color: rgb(9, 9, 107);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.todo-list h2 img {
+    height: 50px;
+    width: 60px;
+    margin-left: 15px;
+
+}
+#newtask {
+    position: relative;
+   padding: 30px 20px;
+}
+#newtask input {
+    width: 75%;
+    height: 45px;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#newtask input:focus {
+    outline: none;
+    border-color: #0d75ec;
+}
+#newtask button {
+    float: right;
+    width: 20%;
+    height: 45px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    position: relative;    
+}
+#tasks {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+.task {
+    background-color: #c5e1e6;
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+}
+.task span {
+    font-family: poppins;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button {
+    background-color: #0a2ea4;
+    color: #ffffff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
